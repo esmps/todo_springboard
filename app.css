@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#to-do-form{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0px 30px 10px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+#to-do-value{
+    width: 350px;
+    height: auto;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+#to-do-submit{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+#to-do-list{
+    margin: auto auto;
+    padding: 0px;
+
+}
+.to-do-item{
+    list-style-type: none;
+    margin: auto auto;
+    width: 450px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+.remove{
+    width: auto;
+    font-size: 30px;
+    margin: 5px;
+    background-color: rgb(244, 97, 97);
+    border: 1px solid rgb(244, 97, 97);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px grey;
+    float: right;
+}
+.completed{
+    width: auto;
+    font-size: 30px;
+    margin: 5px;
+    background-color: rgb(67, 177, 67);
+    border: 1px solid rgb(67, 177, 67);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px grey;
+    float: right;
+}
